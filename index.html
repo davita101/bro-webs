@@ -17,9 +17,9 @@
         <h2>Desert</h2>
         <figure class="dessert-item-container">
           <div class="cart-container">
-            <img src="#" alt="main img">
+            <img src="./assets/images/image-baklava-desktop.jpg" alt="main img">
             <div>
-              <img src="#" alt="add bucket">
+              <img src="./assets/images/icon-add-to-cart.svg" alt="add bucket">
               <span>Add to cart</span>
             </div>
           </div>
@@ -32,10 +32,34 @@
       </section>
       <aside class="add-cart-container"><!--კალათა -->
         <div class="add-cart-wrapper">
-          <h3>Your Cart (0)</h3>
-          <img src="#" alt="no cake found">
-          <p>You must add bla bla bla</p>
-        </div>
+          <h3>Your Cart (<span id="item-amout-finall">0</span>)</h3>
+          <!-- if cakes are not found -->
+          <!-- <img src="#" alt="no cake found"> -->
+           <!-- if found -->
+            <div>
+              <h4>Classic Tiramisu</h4>
+              <div class="add-cart-container-result">
+                <div class="item-container">
+                  <p><span class="item-amout">1</span>x</p>
+                  <!-- main cost -->
+                  <p>@$<span class="item-cost">5.50</span></p>
+                  <!-- final const -->
+                  <p>@$<span class="item-finnal">5.50</span></p>
+                </div>
+                <img src="./assets/images/icon-remove-item.svg" alt="x icon">
+              </div>
+              <hr>
+            </div>
+            <div>
+              <h4>Order Total</h4>
+              <h4>$<span id="total-order ">46.50</span></h4>
+            </div>
+            <div>
+              <img src="./assets/images/icon-carbon-neutral.svg" alt="tree icon">
+              <p>This is a <span id="carbon-icon">carbon-neutral</span> delivery</p>
+            </div>
+            <button>Confirm Order</button>
+          </div>
       </aside>
     </div>
   </div>
